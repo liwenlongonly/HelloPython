@@ -20,6 +20,6 @@ from west import urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$',first_page),
-    url(r'^west/',include(urls)),
+    url(r'^$', first_page),
+    url(r'^west/', include(urls)),
 ]

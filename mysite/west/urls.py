@@ -1,6 +1,6 @@
 from django.conf.urls import url
-from west.views import first_page
+from west import views
 
 urlpatterns = [
-    url(r'^$',first_page),
+    url(r'^$', views.first_page),
 ]
